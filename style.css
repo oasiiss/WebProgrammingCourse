@@ -1,0 +1,48 @@
+body{
+    width: 90%;
+    margin: auto;
+}
+
+form{
+    width: 30%;
+    margin: auto;
+}
+
+.start_date_box, .end_date_box {
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+}
+
+input{
+    width: 98%;
+}
+
+#read_data {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    min-width: 130px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
